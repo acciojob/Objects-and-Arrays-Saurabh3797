@@ -4,19 +4,9 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-
-// Write your code here, make sure the name of variables is exactly
-var team = players;
-
-// Create a variable team1 that is a copy of the players array
+var  team = players;
 var team1 = players.slice();
-
-// Create a variable cap1 that is a copy of the person object
-var cap1 = Object.assign({}, person);
-
-console.log(team);   // Output: ['John', 'Mike', 'Sarah']
-console.log(team1);  // Output: ['John', 'Mike', 'Sarah']
-console.log(cap1);  //same as mentioned in the problem statement
+var cap1 = person;
 
 window.players = players;
 window.person = person;
