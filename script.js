@@ -6,7 +6,7 @@ const person = {
 };
 var  team = players;
 var team1 = players.slice();
-var cap1 = person;
+var cap1 = object.assign(person);
 
 window.players = players;
 window.person = person;
