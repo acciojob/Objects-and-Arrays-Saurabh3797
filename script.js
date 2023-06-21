@@ -4,7 +4,7 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-var  team = players;
+var team = players;
 var team1 = players.slice();
 var cap1 = object.assign({}, person);
 
